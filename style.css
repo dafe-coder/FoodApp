@@ -1,0 +1,78 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(20, 20, 20);
+	background: linear-gradient(
+		132deg,
+		rgb(64, 61, 68) 0%,
+		rgba(137, 132, 139, 1) 80%,
+		rgba(133, 127, 137, 1) 100%
+	);
+}
+
+.wrapper {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.card {
+	max-width: 430px;
+	width: 80%;
+	background-color: #161417;
+	padding: 22px 23px 28px;
+	color: white;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+.card h2 {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.card-button {
+	display: flex;
+	justify-content: center;
+	gap: 29px;
+}
+
+.card-button button {
+	background: #3f1918;
+	border: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 86px;
+	height: 86px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	-webkit-box-shadow: 4px 5px 6px -2px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 4px 5px 6px -2px rgba(0, 0, 0, 0.75);
+	box-shadow: 4px 5px 6px -2px rgba(0, 0, 0, 0.75);
+}
+
+.card-button button img {
+	width: 30px;
+	height: 30px;
+	fill: #ac8c3f;
+	margin-bottom: 13px;
+}
+
+.card-button button svg {
+	width: 30px;
+	height: 30px;
+	fill: color(srgb 0.9388 0.696 0.4681);
+	margin-bottom: 13px;
+}
